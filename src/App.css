@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.movie-list{
+  width: 90%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+  gap: 2rem;
+}
+table{
+  width:70%;
+  border-collapse: collapse;
+  
+}
+#title-td{
+  width: 60%;
+  border: 1px solid black;
+  border: 1px solid black;
+}
+#genre-td, #year-td{
+  width: 20%;
+}
+.filter-div{
+  width: 70%;
+  margin: auto;
+  background-color: rgb(212, 208, 208);
+  text-align: center;
+  padding: 10px 0px;
+}
+.btns{
+  gap: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.filter-div button{
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(212, 208, 208);
+  cursor: pointer;
+}
+table td, th{
+  padding: 5px;
+  border: 1px solid black;
+}
+th{
+  background-color: rgb(212, 208, 208);
+}
